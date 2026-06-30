@@ -1,4 +1,4 @@
-# Roteiro 1 Django
+# Roteiro 2 Django
 README referente à parte 2 dos roteiros do projeto django da disciplina de Programação Web
 
 ## Imagens
