@@ -7,31 +7,48 @@
     </head>
 
 
-    <body class="h-screen bg-gradient-to-br from-slate-400 to-neutral-500 font-sans p-5">
+    <body class="bg-gradient-to-br from-slate-400 to-neutral-500 font-sans p-5">
+    <!-- <body class="bg-[url('./img/background.jpg')] bg-cover bg-center h-screen w-full backdrop-blur"> -->
 
-        <div class="flex gap-20">
-            <div class="inline-flex flex-col items-center">
-                <h1 class="text-2xl font-bold">Victor Susko</h1>
-                <img src="https://github.com/VSusko.png" alt="Minha foto" class="rounded-full shadow-2xl border-4 border-gray-300 w-[15vw] h-[15vw] my-5">
+        <div class="flex">
+            <!-- Div da barra lateral -->
+            <aside class="flex h-screen flex-col items-center w-1/2 bg-gray-300/40 p-3 rounded-sm border-2 backdrop-blur">
+                <div class="rounded-lg border-2 bg-gradient-to-tr from-yellow-400 to-gray-100 px-3 shadow-lg">
+                    <p class="text-2xl font-bold text-shadow-lg">Victor Susko</p>
+                </div>
+                <img src="https://github.com/VSusko.png" alt="Minha foto" class="rounded-full shadow-xl border-4 border-gray-300 w-[15vw] h-[15vw] my-5">
 
-                <!-- Div dos links de contato -->
-                <div class="bg-white/10 backdrop-blur-lg p-5 mt-5 rounded-lg border-2 border-white/30 shadow-2xl w-1/2">
+                <!-- Div -->
+                <div class="bg-white/10 backdrop-blur-lg p-2 mt-5 rounded-lg border-2 border-white/80 shadow-2xl w-full">
+                    <p class="text-base text-shadow-lg/30 underline">Contato:</p>
+                    <!-- Linkedin -->
                     <div class="flex items-center">
-                        <svg class="w-1/4 h-1/4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M512 96L127.9 96C110.3 96 96 110.5 96 128.3L96 511.7C96 529.5 110.3 544 127.9 544L512 544C529.6 544 544 529.5 544 511.7L544 128.3C544 110.5 529.6 96 512 96zM231.4 480L165 480L165 266.2L231.5 266.2L231.5 480L231.4 480zM198.2 160C219.5 160 236.7 177.2 236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160zM480.3 480L413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480z"/></svg>
+                        <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M512 96L127.9 96C110.3 96 96 110.5 96 128.3L96 511.7C96 529.5 110.3 544 127.9 544L512 544C529.6 544 544 529.5 544 511.7L544 128.3C544 110.5 529.6 96 512 96zM231.4 480L165 480L165 266.2L231.5 266.2L231.5 480L231.4 480zM198.2 160C219.5 160 236.7 177.2 236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160zM480.3 480L413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480z"/></svg>
                         <a href="https://www.linkedin.com/in/victor-susko" class="text-sm text-slate-300 hover:text-white transition">Linkedin</a>
                     </div>
-                    
-                    <div class="flex items-center">
-                        <svg class="w-1/4 h-1/4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M280.5 426.5C214.5 418.5 168 371 168 309.5C168 284.5 177 257.5 192 239.5C185.5 223 186.5 188 194 173.5C214 171 241 181.5 257 196C276 190 296 187 320.5 187C345 187 365 190 383 195.5C398.5 181.5 426 171 446 173.5C453 187 454 222 447.5 239C463.5 258 472 283.5 472 309.5C472 371 425.5 417.5 358.5 426C375.5 437 387 461 387 488.5L387 540.5C387 555.5 399.5 564 414.5 558C505 523.5 576 433 576 321C576 179.5 461 64 319.5 64C178 64 64 179.5 64 321C64 432 134.5 524 229.5 558.5C243 563.5 256 554.5 256 541L256 501C249 504 240 506 232 506C199 506 179.5 488 165.5 454.5C160 441 154 433 142.5 431.5C136.5 431 134.5 428.5 134.5 425.5C134.5 419.5 144.5 415 154.5 415C169 415 181.5 424 194.5 442.5C204.5 457 215 463.5 227.5 463.5C240 463.5 248 459 259.5 447.5C268 439 274.5 431.5 280.5 426.5z"/></svg>
+                    <!-- Github -->
+                    <div class="flex items-center mb-4">
+                        <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M280.5 426.5C214.5 418.5 168 371 168 309.5C168 284.5 177 257.5 192 239.5C185.5 223 186.5 188 194 173.5C214 171 241 181.5 257 196C276 190 296 187 320.5 187C345 187 365 190 383 195.5C398.5 181.5 426 171 446 173.5C453 187 454 222 447.5 239C463.5 258 472 283.5 472 309.5C472 371 425.5 417.5 358.5 426C375.5 437 387 461 387 488.5L387 540.5C387 555.5 399.5 564 414.5 558C505 523.5 576 433 576 321C576 179.5 461 64 319.5 64C178 64 64 179.5 64 321C64 432 134.5 524 229.5 558.5C243 563.5 256 554.5 256 541L256 501C249 504 240 506 232 506C199 506 179.5 488 165.5 454.5C160 441 154 433 142.5 431.5C136.5 431 134.5 428.5 134.5 425.5C134.5 419.5 144.5 415 154.5 415C169 415 181.5 424 194.5 442.5C204.5 457 215 463.5 227.5 463.5C240 463.5 248 459 259.5 447.5C268 439 274.5 431.5 280.5 426.5z"/></svg>
                         <a href="github.com/VSusko" class="text-sm text-slate-300 hover:text-white transition">Github</a>
                     </div>
-                </div>
-            </div>
 
-            <!-- <div class="ml-auto"> -->
-                <div class="bg-white/20 backdrop-blur-md p-5 mt-5 rounded-lg border-2 border-white/30 shadow-xl w-1/2 h-1/2">
+                    <p class="text-base text-shadow-lg/30 underline">Habilidades:</p>
+                    <div class="mb-4">
+
+                    </div>
+
+
+                    <p class="text-base text-shadow-lg/30 underline">Idiomas:</p>
+                    <div class="mb-4">
+
+                    </div>
+                </div>
+            </aside>
+
+            <div class="flex flex-col">
+                <div class="bg-white/50 p-5 rounded-lg border-2 border-white shadow-xl ml-64 w-1/2 h-64">
                     <p class="text-lg font-bold text-center">Sobre mim:</p>
-                    <p class="mt-2">Sou estudante de Ciência da Computação com experiência em desenvolvimento
+                    <p class="mt-2 text-justify">Sou estudante de Ciência da Computação com experiência em desenvolvimento
                         de sistemas distribuídos e pipelines de dados, atuando com ETL,
                         orquestração de workflows com Apache Airflow e criação de dashboards
                         interativos. Possuo vivência em projetos com Python, Docker e Kubernetes, e
@@ -39,17 +56,27 @@
                         soluções escaláveis em ambiente cloud.</p>
                 </div>
                     
-                <!-- <div class="bg-white/20 backdrop-blur-md p-5 mt-5 rounded-lg border-2 border-white/30 shadow-xl w-1/4 h-1/4">
+                <div class="bg-white/50 backdrop-blur-md p-5 mt-5 rounded-lg border-2 border-white/30 shadow-xl shadow-yellow-500/50 ml-64 w-1/2 ">
                     <p class="text-lg font-bold text-center">Experiência</p>
-                    <p class="mt-2">Iniciação Científica – UFOP (PROPPI)</p>
-                    <p>2024-2025</p>
-                    <p>Projeto de Iniciação Científica na área de Estatística Computacional
+                    <p class="mt-2 text-sm">Iniciação Científica – UFOP (PROPPI)</p>
+                    <p class="text-xs">2024-2025</p>
+                    <p class="text-justify">Projeto de Iniciação Científica na área de Estatística Computacional
                     voltado ao estudo e desenvolvimento de métodos para identificação
                     de convergência em amostradores Markov Chain Monte Carlo
-                    (MCMC), com foco no amostrador de Gibbs.
-                    </p>
-                </div> -->
-            <!-- </div> -->
+                    (MCMC), com foco no amostrador de Gibbs.</p>
+
+                    <p class="mt-2 text-sm">TerraLab – UFOP</p>
+                    <p class="text-xs">2025 - Atual</p>
+                    <p class="text-justify">Participação no TerraLab, laboratório de pesquisa e capacitação da
+                    UFOP. Atuação no desenvolvimento e manutenção de pipelines de
+                    ETL, utilizando Apache Airflow para orquestração e automação de
+                    workflows. Responsável pelo tratamento, organização e modelagem
+                    de dados para fins analíticos, além da construção de dashboards
+                    interativos voltados à visualização de indicadores e apoio à tomada
+                    de decisão baseada em dados</p>
+                    
+                </div>
+            </div>
 
         </div>
             

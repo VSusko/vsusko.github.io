@@ -1,1 +1,3 @@
-# Projeto da disciplina eletiva de Programação Web: Repositório para minha página pessoal
+# Projeto página pessoal
+
+- A fazer: implementar animacoes com botoes de seta nas experiências
