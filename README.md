@@ -9,4 +9,4 @@ README referente à parte 2 dos roteiros do projeto django da disciplina de Prog
 ![alt text](img/admin.png)
 
 ### Sobre:
-![alt text](img/sobre.png)!
+![alt text](img/sobre.png)
