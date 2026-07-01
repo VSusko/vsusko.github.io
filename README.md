@@ -1,15 +1,21 @@
-# Roteiro 5 Django
-README referente à parte 5 dos roteiros do projeto django da disciplina de Programação Web
+# Roteiro 6 Django
+README referente à parte 6 dos roteiros do projeto django da disciplina de Programação Web
 
 ## Imagens
-### Home:
-![alt text](img/home.png)
+### Create:
+![alt text](img/create.png)
 
-### Nova Página:
-![alt text](img/nova_pagina.png)
+### Read:
+![alt text](img/read.png)
 
-### Validação 1:
-![alt text](img/validacao1.png)
+### Update:
+![alt text](img/update.png)
 
-### Validação 2:
-![alt text](img/validacao2.png)
+### Confirmando update:
+![alt text](img/update_confirm.png)
+
+### Delete:
+![alt text](img/delete.png)
+
+### Confirmando delete:
+![alt text](img/delete_confirm.png)
